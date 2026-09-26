@@ -2,3 +2,39 @@
 kubeconfig
 .venv/
 __pycache__/
+# Secrets and local environment settings
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and test files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# AWS credentials copied into the project
+.aws/
+
+# Kubernetes credentials
+kubeconfig
+kubeconfig.*
+.kube/
+
+# Logs
+*.log
+
+# Windows files
+Thumbs.db
+Desktop.ini

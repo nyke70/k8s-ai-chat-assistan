@@ -1,0 +1,13 @@
+# Settings for the Kubernetes MCP server.
+
+kubeconfig = "kubeconfig" 
+
+port = "8080"
+bind_address = "127.0.0.1"
+read_only = true
+toolsets = ["core"]
+
+[[denied_resources]]
+group = ""
+version = "v1"
+kind = "Secret"
